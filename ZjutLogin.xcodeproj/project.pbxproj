@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		E3B1F94D1C5D2C610031C873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1F94C1C5D2C610031C873 /* AppDelegate.swift */; };
-		E3B1F94F1C5D2C610031C873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1F94E1C5D2C610031C873 /* ViewController.swift */; };
 		E3B1F9521C5D2C610031C873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B1F9501C5D2C610031C873 /* Main.storyboard */; };
 		E3B1F9541C5D2C610031C873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B1F9531C5D2C610031C873 /* Assets.xcassets */; };
 		E3B1F9571C5D2C610031C873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B1F9551C5D2C610031C873 /* LaunchScreen.storyboard */; };
+		E3B1F95F1C5D2C890031C873 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3B1F95E1C5D2C890031C873 /* Data.plist */; };
+		E3B1F9611C5D2E110031C873 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1F9601C5D2E110031C873 /* DataManager.swift */; };
+		E3B1F9681C5D37130031C873 /* ChangePWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1F9661C5D37130031C873 /* ChangePWViewController.swift */; };
+		E3B1F9691C5D37130031C873 /* ChangePWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3B1F9671C5D37130031C873 /* ChangePWViewController.xib */; };
+		E3B1F96C1C5D37B70031C873 /* UserDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1F96A1C5D37B70031C873 /* UserDetailTableViewController.swift */; };
+		E3B1F96D1C5D37B70031C873 /* UserDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3B1F96B1C5D37B70031C873 /* UserDetailTableViewController.xib */; };
+		E3B1F9701C5D38020031C873 /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1F96E1C5D38020031C873 /* UserDetailTableViewCell.swift */; };
+		E3B1F9711C5D38020031C873 /* UserDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3B1F96F1C5D38020031C873 /* UserDetailTableViewCell.xib */; };
+		E3B1F9731C5D384E0031C873 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1F9721C5D384E0031C873 /* UserViewController.swift */; };
+		E3B1F9751C5D38550031C873 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B1F9741C5D38550031C873 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3B1F9491C5D2C600031C873 /* ZjutLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZjutLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B1F94C1C5D2C610031C873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3B1F94E1C5D2C610031C873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3B1F9511C5D2C610031C873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3B1F9531C5D2C610031C873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3B1F9561C5D2C610031C873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3B1F9581C5D2C610031C873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B1F95E1C5D2C890031C873 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		E3B1F9601C5D2E110031C873 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E3B1F9661C5D37130031C873 /* ChangePWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePWViewController.swift; sourceTree = "<group>"; };
+		E3B1F9671C5D37130031C873 /* ChangePWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePWViewController.xib; sourceTree = "<group>"; };
+		E3B1F96A1C5D37B70031C873 /* UserDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewController.swift; sourceTree = "<group>"; };
+		E3B1F96B1C5D37B70031C873 /* UserDetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailTableViewController.xib; sourceTree = "<group>"; };
+		E3B1F96E1C5D38020031C873 /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
+		E3B1F96F1C5D38020031C873 /* UserDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailTableViewCell.xib; sourceTree = "<group>"; };
+		E3B1F9721C5D384E0031C873 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		E3B1F9741C5D38550031C873 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +73,18 @@
 			isa = PBXGroup;
 			children = (
 				E3B1F94C1C5D2C610031C873 /* AppDelegate.swift */,
-				E3B1F94E1C5D2C610031C873 /* ViewController.swift */,
+				E3B1F9601C5D2E110031C873 /* DataManager.swift */,
+				E3B1F9721C5D384E0031C873 /* UserViewController.swift */,
+				E3B1F9741C5D38550031C873 /* LoginViewController.swift */,
+				E3B1F9661C5D37130031C873 /* ChangePWViewController.swift */,
+				E3B1F9671C5D37130031C873 /* ChangePWViewController.xib */,
+				E3B1F96A1C5D37B70031C873 /* UserDetailTableViewController.swift */,
+				E3B1F96B1C5D37B70031C873 /* UserDetailTableViewController.xib */,
+				E3B1F96E1C5D38020031C873 /* UserDetailTableViewCell.swift */,
+				E3B1F96F1C5D38020031C873 /* UserDetailTableViewCell.xib */,
 				E3B1F9501C5D2C610031C873 /* Main.storyboard */,
 				E3B1F9531C5D2C610031C873 /* Assets.xcassets */,
+				E3B1F95E1C5D2C890031C873 /* Data.plist */,
 				E3B1F9551C5D2C610031C873 /* LaunchScreen.storyboard */,
 				E3B1F9581C5D2C610031C873 /* Info.plist */,
 			);
@@ -124,7 +151,11 @@
 			files = (
 				E3B1F9571C5D2C610031C873 /* LaunchScreen.storyboard in Resources */,
 				E3B1F9541C5D2C610031C873 /* Assets.xcassets in Resources */,
+				E3B1F95F1C5D2C890031C873 /* Data.plist in Resources */,
 				E3B1F9521C5D2C610031C873 /* Main.storyboard in Resources */,
+				E3B1F9691C5D37130031C873 /* ChangePWViewController.xib in Resources */,
+				E3B1F9711C5D38020031C873 /* UserDetailTableViewCell.xib in Resources */,
+				E3B1F96D1C5D37B70031C873 /* UserDetailTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3B1F94F1C5D2C610031C873 /* ViewController.swift in Sources */,
+				E3B1F9751C5D38550031C873 /* LoginViewController.swift in Sources */,
+				E3B1F9681C5D37130031C873 /* ChangePWViewController.swift in Sources */,
+				E3B1F9731C5D384E0031C873 /* UserViewController.swift in Sources */,
+				E3B1F9701C5D38020031C873 /* UserDetailTableViewCell.swift in Sources */,
+				E3B1F96C1C5D37B70031C873 /* UserDetailTableViewController.swift in Sources */,
 				E3B1F94D1C5D2C610031C873 /* AppDelegate.swift in Sources */,
+				E3B1F9611C5D2E110031C873 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E33e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="140" id="KGk-i7-Jjw" customClass="UserDetailTableViewCell" customModule="ZjutLogin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="543" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="543" height="139.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wph-vB-tIf">
+                        <rect key="frame" x="23" y="18" width="42" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLs-8o-4zk">
+                        <rect key="frame" x="23" y="48.5" width="42" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beP-aC-8va">
+                        <rect key="frame" x="23" y="79" width="42" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7l-aw-Tmc">
+                        <rect key="frame" x="23" y="109.5" width="42" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FsM-4O-bKA">
+                        <rect key="frame" x="411.5" y="14" width="111.5" height="111.5"/>
+                        <color key="backgroundColor" red="0.21567325602845433" green="0.71525399989502003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="FsM-4O-bKA" secondAttribute="height" multiplier="1:1" id="rZO-70-pp7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="lockButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="S3Z-Y1-rg9"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="FsM-4O-bKA" secondAttribute="trailing" constant="20" id="8Kx-XN-atv"/>
+                    <constraint firstItem="S7l-aw-Tmc" firstAttribute="top" secondItem="beP-aC-8va" secondAttribute="bottom" constant="10" id="FLM-Dm-Xck"/>
+                    <constraint firstItem="beP-aC-8va" firstAttribute="leading" secondItem="Wph-vB-tIf" secondAttribute="leading" id="IPF-XK-RsC"/>
+                    <constraint firstItem="FLs-8o-4zk" firstAttribute="top" secondItem="Wph-vB-tIf" secondAttribute="bottom" constant="10" id="Umf-yN-hbN"/>
+                    <constraint firstItem="beP-aC-8va" firstAttribute="top" secondItem="FLs-8o-4zk" secondAttribute="bottom" constant="10" id="VOR-Nd-fM9"/>
+                    <constraint firstItem="FLs-8o-4zk" firstAttribute="leading" secondItem="Wph-vB-tIf" secondAttribute="leading" id="Y6g-Un-DPh"/>
+                    <constraint firstItem="FsM-4O-bKA" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="YqZ-gj-vVs"/>
+                    <constraint firstItem="S7l-aw-Tmc" firstAttribute="leading" secondItem="Wph-vB-tIf" secondAttribute="leading" id="d8D-cK-wjR"/>
+                    <constraint firstItem="Wph-vB-tIf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="gbI-sn-IjY"/>
+                    <constraint firstItem="Wph-vB-tIf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="iGc-PT-bhN"/>
+                    <constraint firstItem="FsM-4O-bKA" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.8" id="tta-m7-KWI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lockButton" destination="FsM-4O-bKA" id="cpR-tP-Qll"/>
+                <outlet property="lockedLabel" destination="S7l-aw-Tmc" id="kTg-cn-C25"/>
+                <outlet property="passwordLabel" destination="FLs-8o-4zk" id="cxY-XQ-F96"/>
+                <outlet property="typeLabel" destination="beP-aC-8va" id="Tb5-s1-at6"/>
+                <outlet property="usernameLabel" destination="Wph-vB-tIf" id="mJd-iX-fbL"/>
+            </connections>
+            <point key="canvasLocation" x="396.5" y="359.5"/>
+        </tableViewCell>
+    </objects>
+</document>

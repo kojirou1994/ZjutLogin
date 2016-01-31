@@ -15,7 +15,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        self.window?.backgroundColor = .whiteColor()
+        let fm = NSFileManager()
+        print(dataPath)
+        if (!fm.fileExistsAtPath(dataPath)) {
+            try! fm.copyItemAtPath(NSBundle.mainBundle().pathForResource("Data", ofType: ".plist")!, toPath: dataPath)
+        }
         // Override point for customization after application launch.
+        dm = DataManager()
+//        dm.changePasswordForUser("admin", password: "admin1")
+//        dm.loginWithUser("admin", and: "admin") { (succ) -> Void in
+//            print(succ)
+//        }
+//        dm.loginWithUser("admin", and: "admin1") { (succ) -> Void in
+//            print(succ)
+//        }
         return true
     }
 
