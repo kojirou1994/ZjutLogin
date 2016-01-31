@@ -9,7 +9,7 @@
 import UIKit
 
 public typealias LoginCompletionHandler = (succ: Bool, info: String?) -> Void
-public let dataPath = NSHomeDirectory() + "/Library/Data.plist"
+public let dataPath = NSHomeDirectory() + "/Documents/Data.plist"
 var dm: DataManager!
 
 class DataManager {
